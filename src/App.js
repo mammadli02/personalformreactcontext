@@ -21,6 +21,7 @@ class App extends React.Component {
             <Routes>
              
               <Route path="/home" element={<HomePage />} />
+              <Route path="/" element={<HomePage />} />
               <Route path="/create" element={<Create />} />
 
             </Routes>
